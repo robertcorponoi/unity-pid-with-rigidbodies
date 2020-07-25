@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="720" height="316" src="https://raw.githubusercontent.com/robertcorponoi/graphics/master/tutorials/rotating-rigidbodies-with-pid-controllers/main.png">
+</p>
+
 <h1 align="center">Rotating Rigidbodies with PID Controllers</h1>
 
 <p align="center">A demo repository for an article on rotating Rigidbodies with PID controllers.<p>
@@ -292,8 +296,7 @@ void FixedUpdate()
 
 At this point you should add the `ShipController` script to the Ship GameObject and your ship should look something like this in the inspector:
 
-![Inspector](../../imag)
-es/jul/rotating-rigidbodies-with-pid-controllers/inspector.png
+![Inspector](https://raw.githubusercontent.com/robertcorponoi/graphics/master/tutorials/rotating-rigidbodies-with-pid-controllers/inspector.png)
 ## The Gain Values
 
 Now we have to go back to the inspector and fill out the gains for both PID controllers. This can be done by running the scene and tweaking the values until you find a nice combination or you can use a set of values below highlighted by the forum poster:
